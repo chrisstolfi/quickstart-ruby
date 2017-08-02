@@ -21,8 +21,8 @@ jobs:
     steps:
       # Our "bundle_install" step is first in the list. It installs your Gem
       # dependencies
-      - bundle_install: bundle install
+      #- bundle_install: bundle install
       # The next step is "rake". It runs the default rake task defined in your
       # Rakefile
-      - rake: bundle exec rake
-
+      #- rake: bundle exec rake
+      - echo "hello"
